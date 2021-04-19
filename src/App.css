@@ -1,0 +1,40 @@
+body{
+  background-color: gray;
+}
+
+.ls{
+  background-color: gray;
+}
+
+.card{
+  width: 100%;
+  margin: auto;
+}
+
+.down{
+  width: 95%;
+  margin-top: 10px;
+}
+
+.top{
+  width: 100%;
+}
+
+.transition-enter {
+  opacity: 1;
+  transform: translate(0, -100px);
+}
+.transition-enter-active {
+  opacity: 0.01;
+  transform: translate(0, 0);
+  transition: all 300ms ease-in;
+}
+.transition-exit {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.transition-exit-active {
+  opacity: 0.01;
+  transform: translate(0, -100px);
+  transition: all 300ms ease-in;
+}
